@@ -1,0 +1,27 @@
+<template 
+	format="5"
+        revision="3"
+        name="Kickstart"
+        description="Creates a basic packages and classes">
+ 
+    <category value="Other"/>
+ 
+   <parameter id="className"
+        name="Base Activity Name"
+        type="string"
+        constraints="class|unique|nonempty"
+        default="BaseActivity"
+        help="The name of the base activity"/>
+
+   <parameter id="secondName"
+        name="Base Fragment Name"
+        type="string"
+        constraints="class|unique|nonempty"
+        default="BaseFragment"
+        help="The name of the base fragment"/>
+		
+
+    <globals file="globals.xml.ftl" />
+    <execute file="recipe.xml.ftl" />
+ 
+</template>
