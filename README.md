@@ -1,4 +1,4 @@
-# AndroidKickstartTemplate
+# Android Kickstart Template
 #### This is a simple start-template to save your little time.
 
 When you use this template it will automatically create some packages like activities, dialogs, fragments, utils which contains following files.
