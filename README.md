@@ -3,30 +3,31 @@
 
 When you use this template it will automatically create some packages like activities, dialogs, fragments, utils which contains following files.
 
-* activities/BaseActivity.java
-
-* customview/CustomFontButton.java
-* customview/CustomFontCheckBox.java
-* customview/CustomFontEditText.java
-* customview/CustomFontRadioButton.java
-* customview/CustomFontTextView.java
-* customview/CustomTypeFaceSpan.java
-* customview/CustomViewPager.java
-* customview/FragmentStatePagerAdapter.java
-* customview/NonScrollListView.java
-* customview/RoundedDrawable.java
-* customview/RoundedImageView.java
-* customview/SquareImageView.java
-* customview/SquareLinearLayout.java
-
-* dialogs/CustomProgressDialog.java (implimented in BaseActivity/BaseFragment)
-
-* fragments/BaseFragment.java
-
-* utils/Constants.java
-* utils/LogUtil.java
-* utils/NetworkUtil.java
-* utils/PreferanceUtil.java (implimented in BaseActivity/BaseFragment)
+   #### Activity
+   * activities/BaseActivity.java
+   #### CustomView
+   * customview/CustomFontButton.java
+   * customview/CustomFontCheckBox.java
+   * customview/CustomFontEditText.java
+   * customview/CustomFontRadioButton.java
+   * customview/CustomFontTextView.java
+   * customview/CustomTypeFaceSpan.java
+   * customview/CustomViewPager.java
+   * customview/FragmentStatePagerAdapter.java
+   * customview/NonScrollListView.java
+   * customview/RoundedDrawable.java
+   * customview/RoundedImageView.java
+   * customview/SquareImageView.java
+   * customview/SquareLinearLayout.java
+   #### Dialog
+   * dialogs/CustomProgressDialog.java (implimented in BaseActivity/BaseFragment)
+   #### Fragment
+   * fragments/BaseFragment.java
+   #### Utility
+   * utils/Constants.java
+   * utils/LogUtil.java
+   * utils/NetworkUtil.java
+   * utils/PreferanceUtil.java (implimented in BaseActivity/BaseFragment)
 
 
 #### How to use it:
