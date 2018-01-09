@@ -32,7 +32,7 @@ When you use this template it will automatically create some packages like activ
 
 #### How to use it:
 * Step 1: Clone/Download this repository.
-* Step 2: Copy KickstartTemplate and Navigate to the location of the templates folder and Paste it into SDK/.../templates/other
+* Step 2: Copy KickstartTemplate and Navigate to the location of the templates folder and Paste it into plugins/.../templates/other
 ~~~~
 Windows: {ANDROID_STUDIO_LOCATION}/plugins/android/lib/templates/other/
 ~~~~
