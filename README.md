@@ -22,7 +22,8 @@ When you use this template it will automatically create some packages like activ
    #### Dialog
    * dialogs/CustomProgressDialog.java (implimented in BaseActivity/BaseFragment)
    #### Fragment
-   * fragments/BaseFragment.java
+   * fragments/BaseFragment.java (android.app.Fragment)
+   * fragments/BaseSupportFragment.java (android.support.v4.app.Fragment)
    #### Utility
    * utils/Constants.java
    * utils/LogUtil.java
