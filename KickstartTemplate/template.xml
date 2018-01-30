@@ -14,12 +14,18 @@
         help="The name of the base activity"/>
 
    <parameter id="secondName"
-        name="Base Fragment Name"
+        name="Base Fragment Name (android.app.Fragment)"
         type="string"
         constraints="class|unique|nonempty"
         default="BaseFragment"
         help="The name of the base fragment"/>
 		
+   <parameter id="thirdName"
+        name="Base Fragment Name (android.support.v4.app.Fragment)"
+        type="string"
+        constraints="class|unique|nonempty"
+        default="BaseSupportFragment"
+        help="The name of the base fragment"/>
 
     <globals file="globals.xml.ftl" />
     <execute file="recipe.xml.ftl" />

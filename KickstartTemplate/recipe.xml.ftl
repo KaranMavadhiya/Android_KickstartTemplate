@@ -14,10 +14,17 @@
     	<open file="${escapeXmlAttribute(srcOut)}/activities/${className}.java" />
 
 	<instantiate 
-		from="root/src/app_package/fragments/BaseFragment.java.ftl"
+		from="root/src/app_package/fragments/BaseAppFragment.java.ftl"
                 to="${escapeXmlAttribute(srcOut)}/fragments/${secondName}.java" />
 
     	<open file="${escapeXmlAttribute(srcOut)}/fragments/${secondName}.java" />
+
+	<instantiate 
+		from="root/src/app_package/fragments/BaseSupportFragment.java.ftl"
+                to="${escapeXmlAttribute(srcOut)}/fragments/${thirdName}.java" />
+
+    	<open file="${escapeXmlAttribute(srcOut)}/fragments/${thirdName}.java" />
+
 
 	<instantiate 
 	     from="root/src/app_package/dialogs/CustomProgressDialog.java.ftl"
